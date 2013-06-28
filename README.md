@@ -1,9 +1,7 @@
-jquery.1.7.1-patch
-==================
-
 BACKGOUNDS
 =========
 The jQuery 1.7.1 has bug a few problem. It couldn't compatible Internet Explorer 10. So you has a some bug if you have been used the jQuery 1.7.1 version.
+
 You have to use this jQuery 1.7.1 patch you want to use the jQuery 1.7.1
 
 
