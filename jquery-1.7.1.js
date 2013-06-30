@@ -43,7 +43,7 @@ var jQuery = function( selector, context ) {
 	// Check if a string has a non-whitespace character in it
 	rnotwhite = /\S/,
 
-	// Used for trimming whitespace
+	// Used for trimming whitespace=
 	trimLeft = /^\s+/,
 	trimRight = /\s+$/,
 
@@ -2696,9 +2696,8 @@ if ( !getSetAttribute ) {
 				ret = document.createAttribute( name );
 				elem.setAttributeNode( ret );
 			}
-            if (!$.browser.msie || $.browser.version < 7) { //my hack
-                return ( ret.nodeValue = value + "" );
-            }
+
+            return ( !$.browser.msie || $.browser.version < 7 ) ? ( ret.nodeValue = value + "" ) : void(0);
 		}
 	};
 
