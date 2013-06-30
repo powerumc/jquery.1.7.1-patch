@@ -18,7 +18,7 @@ Following code block has to error on the IE 10 Web Browser.
 **To be patch**
 ```js
 2699:	return ( !$.browser.msie || $.browser.version < 7 ) ? ( ret.nodeValue = value + "" )
-                                                            : void(0);return ( ret.nodeValue = value + "" );
+                                                            : void(0);
 		}
 ```
 
