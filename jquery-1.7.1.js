@@ -2697,7 +2697,8 @@ if ( !getSetAttribute ) {
 				elem.setAttributeNode( ret );
 			}
 
-            return ( !$.browser.msie || $.browser.version < 7 ) ? ( ret.nodeValue = value + "" ) : void(0);
+            return ( !$.browser.msie || $.browser.version < 7 ) ? ( ret.nodeValue = value + "" )
+                                                                : void(0);
 		}
 	};
 
