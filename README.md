@@ -1,3 +1,6 @@
+Junil Um  
+http://blog.powerumc.kr
+
 BACKGOUNDS
 =========
 The jQuery 1.7.1 has bug a few problem. It couldn't compatible Internet Explorer 10. So you has a some bug if you have been used the jQuery 1.7.1 version.
